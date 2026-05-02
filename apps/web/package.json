@@ -6,9 +6,12 @@
   "dependencies": {
     "@money/database": "file:../../packages/database",
     "@money/shared": "file:../../packages/shared",
+    "@prisma/client": "^6.9.0",
+    "date-fns": "^4.1.0",
     "next": "^15.5.15",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
