@@ -24,7 +24,11 @@ Bootstrap monorepo for a Telegram-first personal money management app.
 6. Seed the admin user with `npm run prisma:seed`.
 
 ## Run
-- Dashboard:
+- One command for both:
+  ```bash
+  npm run dev
+  ```
+- Dashboard only:
   ```bash
   npm run dev:web
   ```
