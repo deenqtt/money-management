@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@money/shared": ["packages/shared/src/index.ts"],
+      "@money/shared/*": ["packages/shared/src/*"],
+      "@money/database": ["packages/database/src/index.ts"],
+      "@money/database/*": ["packages/database/src/*"]
+    }
+  }
+}
