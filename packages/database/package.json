@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@money/shared": "workspace:*",
+    "@money/shared": "file:../shared",
     "@prisma/client": "^6.9.0"
   },
   "devDependencies": {

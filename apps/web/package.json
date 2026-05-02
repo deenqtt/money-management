@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@money/database": "workspace:*",
-    "@money/shared": "workspace:*"
+    "@money/database": "file:../../packages/database",
+    "@money/shared": "file:../../packages/shared"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
