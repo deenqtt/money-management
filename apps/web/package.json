@@ -5,7 +5,10 @@
   "type": "module",
   "dependencies": {
     "@money/database": "file:../../packages/database",
-    "@money/shared": "file:../../packages/shared"
+    "@money/shared": "file:../../packages/shared",
+    "next": "^15.5.15",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
